@@ -25,7 +25,7 @@ expected to be a linear combination of the features of :math:`X`. In mathematica
 
 \hat{Y}(\theta, X) = \theta^{0} * X^0 + \theta^{1}*X^1 + \theta^{2} * X^2 +...+ \theta^{d} * X^d + b
 
-Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d] \in mathcal{\theta}` is the parameters  and :math:`b` is the bias term. 
+Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d] \in \mathcal{\theta}` is the parameters  and :math:`b` is the bias term. 
 
 Ordinary Least Squares
 ======================
