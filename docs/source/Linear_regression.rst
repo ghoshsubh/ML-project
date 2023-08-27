@@ -31,5 +31,5 @@ Our goal is to update the :math:`\theta` parameters in such a way that the error
 Ordinary Least Squares
 ======================
 
-.. image:: docs/images/Least square.png
+.. image:: docs/images/LeastSquare.png
   :align: center
