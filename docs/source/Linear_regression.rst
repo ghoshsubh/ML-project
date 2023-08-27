@@ -20,7 +20,9 @@ we need to estimate the output for that point. We can think of an example that a
 We can design an algorithm :math:`A \in \mathcal{A}` that takes the :math:`n` data points as an input and return a learned function :math:`f \in \mathcal{F}` such that :math:`f: \mathcal{X} \rightarrow \mathcal{Y}`. Now, if we know the learned :math:`f` 
 we can estimate the new output for the :math:`X_{n+1}`. There are different ways to learn the :math:`f` function. We will discuss some of them in this sections with python codes. We name linear regression because the predicted target value :math:`\hat{Y}` is 
 expected to be a linear combination of the features of :math:`X`. In mathematical notation, we can write :math:`\hat{Y}` as follows:
+
 .. math::
+
 \hat{Y}(\theta, X) = \theta^{0} * X^0 + \theta^{1}*X^1 + \theta^{2} * X^2 +...+ \theta^{d} * X^d + b
 
 Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d] \in mathcal{\theta}` is the parameters  and :math:`b` is the bias term. 
