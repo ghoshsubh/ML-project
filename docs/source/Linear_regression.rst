@@ -31,8 +31,12 @@ Our goal is to update the :math:`\theta` parameters in such a way that the error
 Ordinary Least Squares
 ======================
 
+Here, we try to solve a problem of the form as follows:
+
+..math::
+
+  min_{\theta} ||X\theta - Y||_2^2
 .. image:: images/LeastSquare.png
   :align: center
 
 Please try the `code <https://colab.research.google.com/drive/1_NG11gNPu_UZj9_aH9-NvaQpFXLRg-Ez?usp=sharing>`_.
-`numpy.dot() <https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html>`_
