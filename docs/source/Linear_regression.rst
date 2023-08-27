@@ -12,7 +12,7 @@ Linear Regression
 Introduction
 ============
 
-Assume we have some :math:`n` training data points :math:`{(X_i, Y_i)}_{i = 1}^{n}` that comes from an known/unknown distribution :math:`\mathcal{P}_{XY}`. Where, the :math:`X_i \in \mathcal{X} \in \mathbb{R}^d`
+Assume we have some :math:`n` training data points :math:`{(X_i, Y_i)}_{i = 1}^{n}` that comes from an unknown/known distribution :math:`\mathcal{P}_{XY}`. Where, the :math:`X_i \in \mathcal{X} \in \mathbb{R}^d`
 comes from the input distribution :math:`\mathcal{P}_{X}` and :math:`Y_i \in \mathcal{Y} \in \mathbb{R}` comes from a conditioned distribution :math:`\mathcal{P}_{Y/X}`. Now, we have a new data point :math:`X_{n+1}` and
 we need to estimate the output for that point. We can think of an example that a hospital has some patients data. :math:`X_i` consists of some risk factors such as age, blood pressure, height, body weight, etc., for a patient and 
 :math:`Y_i` is a measure of kidney function(e.g., eGFR). Using the previous :math:`n` data points, our goal is to estimate the output of the new data point :math:`X_{n+1}`.
@@ -25,7 +25,9 @@ expected to be a linear combination of the features of :math:`X`. In mathematica
 
   \hat{Y}(\theta, X) = \theta^{0} * X^0 + \theta^{1}*X^1 + \theta^{2} * X^2 +...+ \theta^{d} * X^d + b
 
-Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d] \in \mathcal{\theta}` is the parameters  and :math:`b` is the bias term. 
+Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d]` is the parameters  and :math:`b` is the bias term. We can calculate the error/loss term as :math:`\hat{Y}_i - Y_i` for the :math:`X_i` data point. 
+Our goal is to update the :math:`\theta` parameters that minimize the error term for the future data points such as :math:`X_{n+1}`.
+.
 
 Ordinary Least Squares
 ======================
