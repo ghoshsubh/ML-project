@@ -1,4 +1,4 @@
-Template for the Read the Docs tutorial
+Machine Learning Concepts with Codes
 =======================================
 
 This GitHub template includes fictional Python library
