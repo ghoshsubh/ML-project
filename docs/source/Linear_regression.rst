@@ -18,5 +18,9 @@ we need to estimate the output for that point. We can think of an example that a
 :math:`Y_i` is a measure of kidney function(e.g., eGFR). Using the previous :math:`n` data points, our goal is to estimate the output of the new data point :math:`X_{n+1}`.
 
 We can design an algorithm :math:`A \in \mathcal{A}` that takes the :math:`n` data points as an input and return a learned function :math:`f \in \mathcal{F}` such that :math:`f: \mathcal{X} \rightarrow \mathcal{Y}`. Now, if we know the learned :math:`f` 
-we can estimate the new output for the :math:`X_{n+1}`. There are different ways to learn the :math:`f` function. We will discuss some of the in this sections with python codes.
+we can estimate the new output for the :math:`X_{n+1}`. There are different ways to learn the :math:`f` function. We will discuss some of them in this sections with python codes. We name linear regression because the predicted target value :math:`\hat{Y}` is 
+expected to be a linear combination of the features of :math:`X`. 
+
+Ordinary Least Squares
+======================
 
