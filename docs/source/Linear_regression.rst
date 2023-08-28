@@ -82,6 +82,7 @@ If :math:`d \neq n`, the solution is as follows:
 .. math::
   \theta  = (X^T X)^{-1}X^T Y
 
+Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
   1. :math:`X` is not invertible in most of the cases.
   2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points.
