@@ -46,6 +46,12 @@ There are two ways to solve the above problem to get minimum error in the future
 
 Exact solution
 --------------
+The loss for the :math:`n` data points is as follows:
+
+.. math::
+  L = ||X\theta - Y||_2^2
+
+We need to find :math:`\theta` that minimizes the L term.
 
 
 
