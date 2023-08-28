@@ -63,7 +63,8 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
      
     &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
 
-  \frac{\partial L}{\partial X} &= 2 \theta^T X^T X - 2 Y^T X = 0
+  \frac{\partial L}{\partial X} &= 2 \theta^T X^T X - 2 Y^T X 
+    &= 0
 
   \theta^T X^T X &= Y^T X
 
@@ -73,9 +74,9 @@ Now if :math:`d = n` and :math:`X` is an invertible matrix, the solution is as f
 
 .. math::
 
-  \theta &=  X^{-1} Y
+  \theta =  X^{-1} Y
 
-If :math:`X` is an invertible matrix and :math:`d \neq n`, the solution is as follows:
+If :math:`d \neq n`, the solution is as follows:
 
 .. math::
   \theta  = (X^T X)^{-1}X^T Y
