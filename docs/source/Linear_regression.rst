@@ -8,7 +8,7 @@ Linear Regression
     :local:
     :depth: 2
 
-Alphabate in upper case is a matrix and in lower case is a vector.
+Alphabate in the upper case is a matrix and in the lower case is a vector.
 
 
 Introduction
@@ -40,6 +40,9 @@ Here, we try to solve a problem of the form as follows:
   min_{\theta} ||X\theta - Y||_2^2
 
 We can solve the above problem in two ways: one is the exact solution and another one is the approximate solution.
+
+Exact solution
+--------------
 
 
 
