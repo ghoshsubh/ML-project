@@ -51,11 +51,16 @@ The loss for the :math:`n` data points is as follows:
 .. math::
   L = ||X\theta - Y||_2^2
 
-We need to find :math:`\theta` that minimizes the :mat:`L`` term.
+We need to find :math:`\theta` that minimizes the :mat:`L` term.
 
 .. math::
-  
-  L = (X \theta - Y)
+
+  L = (X \theta - Y)^T(X \theta - Y)
+
+    =(\theta^T X^T - Y^T)(X \theta - Y)
+    
+
+
 
 
 
