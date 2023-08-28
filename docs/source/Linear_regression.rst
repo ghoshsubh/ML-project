@@ -39,6 +39,9 @@ Here, we try to solve a problem of the form as follows:
 
   min_{\theta} ||X\theta - Y||_2^2
 
+In the above equation :math:`\hat{y} = x \theta` for a data point and :math:`\hat{Y} = X \theta` for all :math:`n` data points. Where :math:`\theta \in \mathbb{R}^d`.
+For a new data point :math:`x_{n+1}`, we can estimate :math:`\hat{Y}_{n+1}` as :math:`x_{n+1} \theta`, but we do not know the :math:`\theta` parameter. One way we can
+assume :math:`\theta` as random variables, but for a new point :math:`x_{n+1}`, we may have high error/loss :math:`(y_{n+1} - \hat{y}_{n+1}`(assume we know :math:`y_{n+1}`).  
 We can solve the above problem in two ways: one is the exact solution and another one is the approximate solution.
 
 Exact solution
