@@ -39,7 +39,7 @@ Here, we try to solve a problem of the form as follows:
 
   min_{\theta} ||X\theta - Y||_2^2
 
-In the above equation :math:`\hat{y} = x \theta` for a data point and :math:`\hat{Y} = X \theta` for all :math:`n` data points. Where :math:`\theta \in \mathbb{R}^d`.
+In the above equation :math:`\hat{y} = x \theta` for a data point and :math:`\hat{Y} = X \theta` for all :math:`n` data points. Where :math:`\theta \in \mathbb{R}^{d+1}`. The :math:`(+1)` comes due to including the bias term within :math:`\theta`.
 For a new data point :math:`x_{n+1}`, we can estimate :math:`\hat{Y}_{n+1}` as :math:`x_{n+1} \theta`, but we do not know the :math:`\theta` parameter. One way we can
 assume :math:`\theta` as random variables, but for a new point :math:`x_{n+1}`, we may have high error/loss :math:`(y_{n+1} - \hat{y}_{n+1})`. Lest us assume that we know :math:`y_{n+1}`.  
 There are two ways to solve the above problem to get minimum error in the future data points. One is the exact solution and another one is the approximate solution.
@@ -51,7 +51,11 @@ The loss for the :math:`n` data points is as follows:
 .. math::
   L = ||X\theta - Y||_2^2
 
-We need to find :math:`\theta` that minimizes the L term.
+We need to find :math:`\theta` that minimizes the :mat:`L`` term.
+
+.. math::
+  
+  L = (X \theta - Y)
 
 
 
