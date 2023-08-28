@@ -81,7 +81,9 @@ If :math:`d \neq n`, the solution is as follows:
 .. math::
   \theta  = (X^T X)^{-1}X^T Y
 
-
+In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
+  1. :math:`X` is not invertible.
+  2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points.
 Approximate Solution
 --------------------
 
