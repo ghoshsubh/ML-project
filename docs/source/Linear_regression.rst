@@ -63,7 +63,16 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
      
     &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
 
-  \frac{\partial L}{partial X} &= \theta^t X^T X - 2 X^T Y
+  \frac{\partial L}{\partial X} &= \theta^T X^T X - 2 Y^T X = 0
+
+  \theta^T X^T X &= 2 Y^T X
+
+  X^T X \theta &= 2 X^T Y
+
+  \theta &= 2 X^{-1} Y
+
+
+
 
 
 
