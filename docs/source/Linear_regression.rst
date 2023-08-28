@@ -61,7 +61,10 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
 
     = \theta^T X^T X \theta - \theta^t X^t Y - Y^T X \theta + Y^T Y
      
-     = \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
+    = \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
+
+  \frac{\do{L}}{do{X}} = \theta^t X^T X - 2 X^T Y
+  
 
 
 
