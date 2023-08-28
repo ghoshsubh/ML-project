@@ -64,6 +64,7 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
     &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
 
   \frac{\partial L}{\partial X} &= 2 \theta^T X^T X - 2 Y^T X 
+
     &= 0
 
   \theta^T X^T X &= Y^T X
@@ -82,7 +83,7 @@ If :math:`d \neq n`, the solution is as follows:
   \theta  = (X^T X)^{-1}X^T Y
 
 In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
-  1. :math:`X` is not invertible.
+  1. :math:`X` is not invertible in most of the cases.
   2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points.
 Approximate Solution
 --------------------
