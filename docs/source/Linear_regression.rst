@@ -151,11 +151,10 @@ Click on my |ImageLink|_
 Random Forest Regression
 ========================
 
-.. image:: /images/jupyter_python.png
+.. image:: images/jupyter_python.png
   :height: 100px
   :width: 200 px
   :scale: 50 %
-  :alt: alternate text
   :align: right
   :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
