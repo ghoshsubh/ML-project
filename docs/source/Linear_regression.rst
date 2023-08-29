@@ -126,6 +126,8 @@ As can be seen the loss decrease as the number of iterations increase given in t
 Ridge Regression
 ================
 
+
+
 Please click on my emage link |ImageLink|_
 
 .. |ImageLink| image:: images/jupyter_python.png
