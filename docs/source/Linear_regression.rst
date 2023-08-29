@@ -132,6 +132,11 @@ Please click on my emage link |ImageLink|_
 
 Ridge Regression
 ================
+click on the image
+
+.. image:: images/jupyter_python.png
+  :width: 50px
+  :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 Lasso Regression
 ================
