@@ -103,6 +103,7 @@ One can think of why the gradient descent works. If the loss function is convex 
 But we want to minimize the loss, so the idea is to take repeated steps in the opposite direction of the gradient. Opposite direction leads to the fastest decrease of the loss function. You can play with the loss function
 as a function of :math:`\theta` in this |ImageLink|_ 
 
+
 .. |ImageLink| image:: images/jupyter_python.png
   :width: 50px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
@@ -113,6 +114,7 @@ as a function of :math:`\theta` in this |ImageLink|_
 As can be seen the loss decrease as the number of iterations increase given in the figure below. Please change the learning rate and the number of iterations in the attached 
 |ImageLink|_ and see the behaviour of the loss as a function of iterations.
 
+
 .. |ImageLink| image:: images/jupyter_python.png
   :width: 50px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
@@ -120,6 +122,9 @@ As can be seen the loss decrease as the number of iterations increase given in t
 .. image:: images/Loss(iter).png
 
 
+
+Ridge Regression
+================
 
 Please click on my emage link |ImageLink|_
 
@@ -129,8 +134,7 @@ Please click on my emage link |ImageLink|_
 
 
 
-Ridge Regression
-================
+
 
 Lasso Regression
 ================
