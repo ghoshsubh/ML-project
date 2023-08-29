@@ -101,9 +101,14 @@ We use :math:`\hat{\theta}` as the empirical estimate of the :math:`\theta`. :ma
 :math:`\nabla L` is the gradient of the loss function with respect to :math:`\theta`. We can write :math:`\nabla L = \frac{\partial L}{\partial \hat{\theta}}`.
 One can think of why the gradient descent works. If the loss function is convex means it has "U" shape as shown in the figure below, the "gradient" of the loss function at a point is the "direction and rate of fastest increase".
 But we want to minimize the loss, so the idea is to take repeated steps in the opposite direction of the gradient. Opposite direction leads to the fastest decrease of the loss function. You can play with the loss function
-as a function of :math:`\theta` in this `code <https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing>`_. The magnitude of the learning rate :math:`\eta` decides the size of the step in the optimization. 
+as a function of :math:`\theta` in this `code <https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing>`_. The magnitude of the learning rate :math:`\eta` decides the size of the step in the optimization/learning process. 
 
 .. image:: images/Loss(theta).png
+
+As can be seen the loss decrease as the number of iterations increase given in the figure below. Please change the learning rate in the attached `code <https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing>`_ and see the behaviour the loss as a function of iterations.
+
+.. image:: images/Loss(iter).png
+
 
 Ridge Regression
 ================
