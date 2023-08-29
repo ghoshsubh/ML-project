@@ -152,9 +152,7 @@ Random Forest Regression
 ========================
 
 .. image:: images/jupyter_python.png
-  :height: 100px
-  :width: 200 px
-  :scale: 50 %
+  :width: 50 px
   :align: right
   :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
