@@ -155,7 +155,6 @@ Click on my |ImageLink|_
 Random Forest Regression
 ========================
 Please see the code 
-
 .. image:: images/jupyter_python.png
   :width: 50 px
   :align: right
