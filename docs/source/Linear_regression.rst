@@ -119,11 +119,10 @@ As can be seen the loss decrease as the number of iterations increase given in t
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 .. image:: images/Loss(iter).png
-Please click on my emage link |ImageLink|_
+Please click on my emage |ImageLink|_
 
 .. |ImageLink| image:: images/jupyter_python.png
-
-  :width: 50px
+  :width: 10px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 
