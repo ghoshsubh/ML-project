@@ -127,9 +127,6 @@ Please click on my emage link |ImageLink|_
   :width: 50px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
-
-
-
 Ridge Regression
 ================
 click on the image
