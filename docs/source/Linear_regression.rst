@@ -112,13 +112,17 @@ The magnitude of the learning rate :math:`\eta` decides the size of the step in 
 .. image:: images/Loss(theta).png
 
 As can be seen in the figure below the loss decreases as the number of iterations increase as we discuss before. Please change the learning rate and the number of iterations in the attached python code
-|ImageLink|_ and see the behaviour of the loss as a function of iterations and learning rate.
+|ImageLink|_ and see the behaviour of the loss as a function of iterations and learning rate. There are a few figures inside attached code.
 
 .. |ImageLink| image:: images/jupyter_python.png
   :width: 50px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 .. image:: images/Loss(iter).png
+
+
+
+
 Please click on my emage |ImageLink|_
 
 .. |ImageLink| image:: images/jupyter_python.png
