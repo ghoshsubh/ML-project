@@ -25,9 +25,10 @@ expected to be a linear combination of the features of :math:`x`. In mathematica
 
 .. math::
 
-  \hat{y}(\theta, x) = \theta^{0} * x^0 + \theta^{1}*x^1 + \theta^{2} * x^2 +...+ \theta^{d} * x^d + b
+  \hat{y}(\theta, x) = \theta^{1}*x^1 + \theta^{2} * x^2 +...+ \theta^{d} * x^{d} + b
 
-Where, :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d]` is the parameters  and :math:`b` is the bias term. We can calculate the error/loss term as :math:`(\hat{y}_i - y_i)` for the :math:`x_i` data point. 
+Where, :math:`\theta = [\theta^1, \theta^2, ...., \theta^d]` is the parameters  and :math:`b` is the bias term. We can include the bias term within
+:math:`\theta` such that :math:`\theta = [\theta^0, \theta^1, \theta^2, ...., \theta^d]`. We can calculate the error/loss term as :math:`(\hat{y}_i - y_i)` for the :math:`x_i` data point. 
 Our goal is to update the :math:`\theta` parameters in such a way that the error term gets minimized for the future data points such as :math:`x_{n+1}`.
 
 Ordinary Least Squares
@@ -41,7 +42,7 @@ Here, we try to solve a problem of the form as follows:
 
 In the above equation :math:`\hat{y} = x \theta` for a data point and :math:`\hat{Y} = X \theta` for all :math:`n` data points. Where :math:`\theta \in \mathbb{R}^{d+1}`. The :math:`(+1)` comes due to including the bias term within :math:`\theta`.
 For a new data point :math:`x_{n+1}`, we can estimate :math:`\hat{Y}_{n+1}` as :math:`x_{n+1} \theta`, but we do not know the :math:`\theta` parameter. One way we can
-assume :math:`\theta` as random variables, but for a new point :math:`x_{n+1}`, we may have high error/loss :math:`(y_{n+1} - \hat{y}_{n+1})`. Lest us assume that we know :math:`y_{n+1}`.  
+assume :math:`\theta` as random variables, but for a new point :math:`x_{n+1}`, we may have high error/loss :math:`(y_{n+1} - \hat{y}_{n+1})` assuming that we know :math:`y_{n+1}`.  
 There are two ways to solve the above problem to get minimum error in the future data points. One is the exact solution and another one is the approximate solution.
 
 Exact Solution
