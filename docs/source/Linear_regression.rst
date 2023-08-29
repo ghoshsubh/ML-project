@@ -90,16 +90,18 @@ In real case applications, it is hard to find :math:`d = n`. There are some draw
 
 Approximate Solution
 --------------------
-Another way to find the optimum :math:`\theta` is gradient descent gradient descent.  The gradient descent or steepest descent
-is a first order iterative optimization algorithm for finding a local minima of a function that is differentiable. we can write the mathematical term at :math:`t+1`-th step as follows:
+Another way to find the optimum :math:`\theta` is using gradient descent algorithm.  The gradient descent or steepest descent
+is a first order iterative optimization algorithm for finding a local minima of a function that is differentiable. we can write the mathematical term at :math:`(t+1)^{th}` step as follows:
 
 .. math::
-  \hat{\theta}_{t+1} = \hat{\theta}_{t} - \eta * \nabla L
 
-One can think why the gradient descent works. 
+  \hat{\theta}_{t+1} = \hat{\theta}_{t} - \eta * \nabla L
 
 We use :math:`\hat{\theta}` as the empirical estimate of the :math:`\theta`. :math:`\eta` is the learning rate and
 :math:`\nabla L` is the gradient of the loss function with respect to :math:`\theta`. we can write :math:`\nabla L = \frac{\partial L}{\partial \theta}`.
+One can think why the gradient descent works. 
+
+
 
 .. image:: images/LeastSquare.png
   :align: center
