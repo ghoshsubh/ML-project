@@ -86,11 +86,15 @@ If :math:`d \neq n`, the solution is as follows:
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
   1. :math:`X` is not invertible in most of the cases.
-  2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points.
+  2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
+
 Approximate Solution
 --------------------
+Another way to find the optimum :math:`\theta` is gradient descent gradient descent.  The gradient descent or steepest descent
+is a first order iterative optimization algorithm for finding a local minima of a function that is differentiable. we can write the mathematical term as follows:
 
-
+.. math::
+  \hat{\theta}_{t+1} = \hat{\theta}_{t} - \eta * \nabla L
 
 
 
