@@ -105,9 +105,15 @@ as a function of :math:`\theta` in this `code <https://colab.research.google.com
 
 .. image:: images/Loss(theta).png
 
-As can be seen the loss decrease as the number of iterations increase given in the figure below. Please change the learning rate in the attached `code <https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing>`_ and see the behaviour the loss as a function of iterations.
+As can be seen the loss decrease as the number of iterations increase given in the figure below. Please change the learning rate and the number of iterations in the attached `code <https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing>`_ and see the behaviour of the loss as a function of iterations.
 
 .. image:: images/Loss(iter).png
+
+Please click on my emage link |ImageLink|_
+
+.. |ImageLink| image:: images/jupyter_python.png
+.. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+
 
 
 Ridge Regression
