@@ -143,6 +143,10 @@ Lasso Regression
 Baysian Ridge Regression
 ========================
 
+Click on my |ImageLink|_
+
+.. |ImageLink| image:: images/jupyter_python.png
+.. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 Random Forest Regression
 ========================
