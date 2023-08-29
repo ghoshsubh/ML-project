@@ -122,7 +122,7 @@ As can be seen the loss decrease as the number of iterations increase given in t
 Please click on my emage link |ImageLink|_
 
 .. |ImageLink| image:: images/jupyter_python.png
-  
+
   :width: 50px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
@@ -148,6 +148,8 @@ Click on my |ImageLink|_
 
 .. |ImageLink| image:: /images/jupyter_python.png
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+
+
 
 
 Random Forest Regression
