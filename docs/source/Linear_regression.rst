@@ -105,6 +105,20 @@ as a function of :math:`\theta` in this `code <https://colab.research.google.com
 
 .. image:: images/Loss(theta).png
 
+Ridge Regression
+================
+
+Lasso Regression
+================
+
+
+Baysian Ridge Regression
+========================
+
+
+Random Forest Regression
+========================
+
 
 
 .. image:: images/LeastSquare.png
