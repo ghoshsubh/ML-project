@@ -88,6 +88,12 @@ In real case applications, it is hard to find :math:`d = n`. There are some draw
   1. :math:`X` is not invertible in most of the cases.
   2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
 
+You can play with the python code |ImageLink|_ to see how the exact solution works.
+
+.. |ImageLink| image::images/jupyter_python.png
+  :width: 50px
+.. _ImageLink: https://colab.research.google.com/drive/1_NG11gNPu_UZj9_aH9-NvaQpFXLRg-Ez?usp=sharing
+
 Approximate Solution
 --------------------
 Another way to find the optimum :math:`\theta` is using gradient descent algorithm.  The gradient descent or steepest descent
