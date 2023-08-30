@@ -138,8 +138,9 @@ Here, we try to solve a problem of the form as follows:
 
 .. math::
 
-  min_{\theta} ||X\theta - Y||_2^2 + ||W||_2^2
+  min_{\theta} ||X\theta - Y||_2^2 + \lambda ||W||_2^2
 
+In the above equation , the additional term is known as the regularization loss. :math:`\lambda` is the regularization hyperparameter. One obvious question can be why do we add the extra term in the loss function.
 
 Lasso Regression
 ================
