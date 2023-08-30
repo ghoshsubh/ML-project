@@ -134,7 +134,11 @@ We show the lines that fit the data points for all the three methods(approximate
 
 Ridge Regression
 ================
+Here, we try to solve a problem of the form as follows:
 
+.. math::
+
+  min_{\theta} ||X\theta - Y||_2^2 + ||W||_2^2
 
 
 Lasso Regression
