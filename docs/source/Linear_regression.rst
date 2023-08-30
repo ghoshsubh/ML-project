@@ -135,7 +135,7 @@ Please use my code from the python code |image|.
 
 .. |image| image:: images/jupyter_python.png
   :width: 50 px
-   :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+  :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 
 Ridge Regression
