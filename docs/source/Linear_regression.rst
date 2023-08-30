@@ -128,24 +128,14 @@ As can be seen in the figure below the loss decreases as the number of iteration
 
 We show the lines that fit the data points for all the three methods(approximate solution using sklearn, approximate solution from scratch, and exact solution). The figures are given below:
 
-.. image:: 
-
-
-Please click on my emage |ImageLink|_
-
-.. |ImageLink| image:: images/jupyter_python.png
-  :width: 10px
-.. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+.. image:: images/linefit_square.png
 
 
 
 Ridge Regression
 ================
-click on the image
 
-.. image:: images/jupyter_python.png
-  :width: 50px
-  :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+
 
 Lasso Regression
 ================
@@ -158,7 +148,7 @@ Baysian Ridge Regression
 Click on my |ImageLink|_
 
 .. |ImageLink| image:: /images/jupyter_python.png
-    :width: 50 px
+    :width: 40 px
 .. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 
