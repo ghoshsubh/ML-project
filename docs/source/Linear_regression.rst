@@ -126,7 +126,9 @@ As can be seen in the figure below the loss decreases as the number of iteration
 
 .. image:: images/Loss(iter).png
 
+We show the lines that fit the data points for all the three methods(approximate solution using sklearn, approximate solution from scratch, and exact solution). The figures are given below:
 
+.. image:: 
 
 
 Please click on my emage |ImageLink|_
