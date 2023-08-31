@@ -8,4 +8,8 @@ Machine Learning Concepts with Codes
 
                                         Linear_regression
 
+.. toctree::
+                                        :caption: Unsupervised Learning
+                                        :maxdepth: 1
 
+                                        K-means clustering
