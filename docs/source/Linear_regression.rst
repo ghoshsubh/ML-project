@@ -173,12 +173,14 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
   \theta  &= (X^T X - I)^{-1}X^T Y
 
 
-  Where :math:`I` id an identity matrix of :math:`d \times d`. 
+Where :math:`I` id an identity matrix of :math:`d \times d`. 
 
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 There are some drawbacks in the exact solution:
   1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
 
+Approximate Solution
+--------------------
 
 Lasso Regression
 ================
