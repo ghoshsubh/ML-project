@@ -175,12 +175,9 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
 
   Where :math:`I` id an identity matrix of :math:`d \times d`. 
 
-.. math::
-
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
-In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
-  1. :math:`X` is not invertible in most of the cases.
-  2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
+There are some drawbacks in the exact solution:
+  1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
 
 
 Lasso Regression
