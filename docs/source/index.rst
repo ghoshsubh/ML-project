@@ -12,4 +12,11 @@ Machine Learning Concepts with Codes
                                         :caption: Unsupervised Learning
                                         :maxdepth: 1
 
-                                        K-means clustering
+                                        K_means_clustering
+
+.. toctree::
+                                        :caption: Mathematics
+                                        :maxdepth: 1
+
+                                        Linear_algebra
+                                        
