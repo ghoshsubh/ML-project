@@ -147,21 +147,21 @@ Exact Solution
 The loss for the :math:`n` data points is as follows:
 
 .. math::
-  L = ||X\theta - Y||_2^2
+  L = ||X\theta - Y||_2^2 + ||\theta||_2^2
 
 We need to find :math:`\theta` that minimizes the :math:`L` term.
 
 .. math::
 
-  L &= (X \theta - Y)^T(X \theta - Y)
+  L &= (X \theta - Y)^T(X \theta - Y) + \theta^T \Theta
 
-    &=(\theta^T X^T - Y^T)(X \theta - Y)
+    &=(\theta^T X^T - Y^T)(X \theta - Y) + \theta^T \Theta
 
-    &= \theta^T X^T X \theta - \theta^T X^T Y - Y^T X \theta + Y^T Y
+    &= \theta^T X^T X \theta - \theta^T X^T Y - Y^T X \theta + Y^T Y + \theta^T \Theta
      
-    &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
+    &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y + \theta^T \Theta
 
-  \frac{\partial L}{\partial \theta} &= 2 \theta^T X^T X - 2 Y^T X 
+  \frac{\partial L}{\partial \theta} &= 2 \theta^T X^T X - 2 Y^T X + 2+ \theta^T 
 
     &= 0
 
