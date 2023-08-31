@@ -139,7 +139,52 @@ Here, we try to solve a problem of the form as follows:
 
   min_{\theta} ||X\theta - Y||_2^2 + \lambda ||W||_2^2
 
-In the above equation , the additional term is known as the regularization loss. :math:`\lambda` is the regularization hyperparameter that controls the trade-off between the actual loss and regularization loss. One obvious question can be why do we add the extra term in the loss function.
+In the above equation , the additional term is known as the regularization loss. :math:`\lambda` is the regularization hyperparameter that controls the trade-off between the actual loss and regularization loss. One obvious question can be on someone's mond why do we add the extra term in the loss function.
+We can solve this problem in two ways: 
+
+Exact Solution
+--------------
+The loss for the :math:`n` data points is as follows:
+
+.. math::
+  L = ||X\theta - Y||_2^2
+
+We need to find :math:`\theta` that minimizes the :math:`L` term.
+
+.. math::
+
+  L &= (X \theta - Y)^T(X \theta - Y)
+
+    &=(\theta^T X^T - Y^T)(X \theta - Y)
+
+    &= \theta^T X^T X \theta - \theta^T X^T Y - Y^T X \theta + Y^T Y
+     
+    &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y
+
+  \frac{\partial L}{\partial \theta} &= 2 \theta^T X^T X - 2 Y^T X 
+
+    &= 0
+
+  \theta^T X^T X &= Y^T X
+
+  X^T X \theta &= X^T Y
+
+Now if :math:`d = n` and :math:`X` is an invertible matrix, the solution is as follows:
+
+.. math::
+
+  \theta =  X^{-1} Y
+
+If :math:`d \neq n`, the solution is as follows:
+
+.. math::
+  \theta  = (X^T X)^{-1}X^T Y
+
+Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
+In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
+  1. :math:`X` is not invertible in most of the cases.
+  2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
+
 
 Lasso Regression
 ================
