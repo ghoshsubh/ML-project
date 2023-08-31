@@ -161,15 +161,17 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
      
     &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y + \theta^T \Theta
 
-  \frac{\partial L}{\partial \theta} &= 2 \theta^T X^T X - 2 Y^T X + 2+ \theta^T 
+  \frac{\partial L}{\partial \theta} &= 2 \theta^T X^T X - 2 Y^T X + 2 \theta^T 
 
     &= 0
 
-  \theta^T X^T X &= Y^T X
+  \theta^T X^T X - \theta^T &= Y^T X
 
-  X^T X \theta &= X^T Y
+  X^T X \theta - I \theta &= X^T Y
 
-Now if :math:`d = n` and :math:`X` is an invertible matrix, the solution is as follows:
+  (X^T X - I) \theta &= X^T Y
+
+Where :math:`I` id an identity matrix of :math:`d \times d`. Now if :math:`d = n` and :math:`X` is an invertible matrix, the solution is as follows:
 
 .. math::
 
