@@ -103,6 +103,9 @@ is a first order iterative optimization algorithm for finding a local minima of 
 
   \hat{\theta}_{t+1} = \hat{\theta}_{t} - \eta * \nabla L
 
+  \hat{\theta}_{t+1} = \hat{\theta}_{t} - \eta * (X^T X \theta_{t} - X^T Y)
+
+
 We use :math:`\hat{\theta}` as the empirical estimate of the :math:`\theta`. :math:`\eta` is the learning rate and
 :math:`\nabla L` is the gradient of the loss function with respect to :math:`\theta`. We can write :math:`\nabla L = \frac{\partial L}{\partial \hat{\theta}}`.
 One can think of why the gradient descent works. If the loss function is convex means it has "U" shape as shown in the figure below, the "gradient" of the loss function at a point is the "direction and rate of fastest increase".
@@ -170,14 +173,15 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
   X^T X \theta - I \theta &= X^T Y
 
   (X^T X - I) \theta &= X^T Y
+
   \theta  &= (X^T X - I)^{-1}X^T Y
 
 
-Where :math:`I` id an identity matrix of :math:`d \times d`. 
+Where :math:`I` is an identity matrix of :math:`d \times d`. 
 
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 There are some drawbacks in the exact solution:
-  1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
+  1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together. Specifically, the time complexity to find an inverse of an matrix is :math:`\bigo(n)`.
 
 Approximate Solution
 --------------------
