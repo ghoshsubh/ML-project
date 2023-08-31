@@ -170,17 +170,12 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
   X^T X \theta - I \theta &= X^T Y
 
   (X^T X - I) \theta &= X^T Y
+  \theta  &= (X^T X - I)^{-1}X^T Y
 
-Where :math:`I` id an identity matrix of :math:`d \times d`. Now if :math:`d = n` and :math:`X` is an invertible matrix, the solution is as follows:
 
-.. math::
-
-  \theta =  X^{-1} Y
-
-If :math:`d \neq n`, the solution is as follows:
+  Where :math:`I` id an identity matrix of :math:`d \times d`. 
 
 .. math::
-  \theta  = (X^T X)^{-1}X^T Y
 
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 In real case applications, it is hard to find :math:`d = n`. There are some drawbacks in the exact solution:
