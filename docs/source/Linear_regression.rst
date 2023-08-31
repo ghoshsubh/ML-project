@@ -88,11 +88,11 @@ In real case applications, it is hard to find :math:`d = n`. There are some draw
   1. :math:`X` is not invertible in most of the cases.
   2. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together.
 
-You can play with the python code |ImageLink|_ to see how the exact solution works.
+Feel free to play with the python code |image| to see how the exact solution works.
 
-.. |ImageLink| image::images/jupyter_python.png
+.. |image| image:: images/jupyter_python.png
   :width: 50px
-.. _ImageLink: https://colab.research.google.com/drive/1_NG11gNPu_UZj9_aH9-NvaQpFXLRg-Ez?usp=sharing
+  :target: https://colab.research.google.com/drive/1_NG11gNPu_UZj9_aH9-NvaQpFXLRg-Ez?usp=sharing
 
 Approximate Solution
 --------------------
@@ -107,11 +107,11 @@ We use :math:`\hat{\theta}` as the empirical estimate of the :math:`\theta`. :ma
 :math:`\nabla L` is the gradient of the loss function with respect to :math:`\theta`. We can write :math:`\nabla L = \frac{\partial L}{\partial \hat{\theta}}`.
 One can think of why the gradient descent works. If the loss function is convex means it has "U" shape as shown in the figure below, the "gradient" of the loss function at a point is the "direction and rate of fastest increase".
 But we want to minimize the loss, so the idea is to take repeated steps in the opposite direction of the gradient. Opposite direction leads to the fastest decrease of the loss function. You can play with the loss function
-as a function of :math:`\theta` in this python code |ImageLink|_. 
+as a function of :math:`\theta` in this python code |image|. 
 
-.. |ImageLink| image:: images/jupyter_python.png
+.. |image| image:: images/jupyter_python.png
   :width: 50px
-.. _ImageLink: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
+  :target: https://colab.research.google.com/drive/1BI1GGxJKHtnADoZvYhRYMcfanZ3NdXlK?usp=sharing
 
 The magnitude of the learning rate :math:`\eta` decides the size of the step in the optimization/learning process. 
 
