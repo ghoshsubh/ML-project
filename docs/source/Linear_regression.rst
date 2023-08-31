@@ -153,11 +153,11 @@ We need to find :math:`\theta` that minimizes the :math:`L` term.
 
 .. math::
 
-  L &= (X \theta - Y)^T(X \theta - Y) + \theta^T \Theta
+  L &= (X \theta - Y)^T(X \theta - Y) + \theta^T \theta
 
-    &=(\theta^T X^T - Y^T)(X \theta - Y) + \theta^T \Theta
+    &=(\theta^T X^T - Y^T)(X \theta - Y) + \theta^T \theta
 
-    &= \theta^T X^T X \theta - \theta^T X^T Y - Y^T X \theta + Y^T Y + \theta^T \Theta
+    &= \theta^T X^T X \theta - \theta^T X^T Y - Y^T X \theta + Y^T Y + \theta^T \theta
      
     &= \theta^T X^T X \theta - 2 Y^T X \theta + Y^T Y + \theta^T \Theta
 
