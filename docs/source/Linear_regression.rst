@@ -181,7 +181,7 @@ Where :math:`I` is an identity matrix of :math:`d \times d`.
 
 Now we have :math:`\theta`, we can estimate the new output :math:`\hat{y}_{n+1} = x_{n+1} \theta`.
 There are some drawbacks in the exact solution:
-  1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together. Specifically, the time complexity to find an inverse of an matrix is :math:`\bigo(n)`.
+  1. If :math:`n` is very large, it is computationally very expensive to process all :math:`n` points together. Specifically, the time complexity to find an inverse of an matrix is :math:`\O(n^{2.373})`.
 
 Approximate Solution
 --------------------
